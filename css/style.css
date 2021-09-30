@@ -40,6 +40,12 @@ h5 {
     border-color:#2D64E6;
 }
 
+.btn-color-plus{
+    color:#2D64E6;
+    background-color:#D9DADC;
+    border-color:#D9DADC;
+}
+
 /*First Section*/
 
 section.container-hero{
@@ -88,3 +94,10 @@ section.container-hero{
    background-color: #1F1F1F ;
 }
 
+/**Tenth Section*/
+
+.bg-games-banner{
+  background-color: #BEBCBB;  
+}
+
+/***/
