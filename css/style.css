@@ -10,7 +10,7 @@
     font-size: 1.3rem;
 }
 
-h5 p{
+h5 {
     font-size: 0.9rem;
 }
 
@@ -19,3 +19,48 @@ h5 p{
 .nav-style ul li a {
     color: black;
 }
+
+/*Buttons*/
+
+.btn-section-img-big{
+    color: #fff;
+    background-color:#CD3D0F;
+    border-color:#CD3D0F;
+}
+
+/*First Section*/
+
+section.container-hero{
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 40px;
+}
+
+.content-position{
+    padding-top: 150px;
+}
+
+/*Second Section*/
+
+.card{
+    border: none;
+}
+
+/**Third Section**/
+
+.text-uptitle{
+    color: #2D64E6;
+}
+
+.text-title-space h1{
+    margin-bottom: 10px;
+}
+
+.text-title-space p{
+    color: #727272;
+}
+
+/**Fourth Section**/
+
+
