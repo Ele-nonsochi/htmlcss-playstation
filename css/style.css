@@ -1,3 +1,9 @@
+:root{
+    
+}
+
+
+
 .h2{
     font-size: 2.5rem;
 }
@@ -26,6 +32,12 @@ h5 {
     color: #fff;
     background-color:#CD3D0F;
     border-color:#CD3D0F;
+}
+
+.btn-primary-color{
+    color: #fff;
+    background-color:#2D64E6;
+    border-color:#2D64E6;
 }
 
 /*First Section*/
@@ -61,6 +73,18 @@ section.container-hero{
     color: #727272;
 }
 
-/**Fourth Section**/
+/**Sixth Section**/
 
+.container-bg-game{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 40px;
+}
+
+/**Seventh section*/
+
+.bg-games-container{
+   background-color: #1F1F1F ;
+}
 
