@@ -41,6 +41,12 @@ h5 {
 }
 
 .btn-color-plus{
+    color:black;
+    background-color:#F5F5F5;
+    border-color:#F5F5F5;
+}
+
+.btn-color-now{
     color:#2D64E6;
     background-color:#D9DADC;
     border-color:#D9DADC;
@@ -50,7 +56,7 @@ h5 {
 
 section.container-hero{
     background-image: url(../img/jumbo-bg.png);
-    background-position: center;
+    background-position: top;
     background-size: cover;
     padding-bottom: 40px;
 }
@@ -96,8 +102,36 @@ section.container-hero{
 
 /**Tenth Section*/
 
-.bg-games-banner{
+.bg-games-banner-plus{
   background-color: #BEBCBB;  
 }
 
-/***/
+/**Thirteenth Section*/
+
+.bg-games-banner-now{
+    background-color:#161C3B;  
+  }
+
+/**Footer*/
+
+.bg-footer{
+    background-color: #00439C;
+}
+
+.play-logo-footer{
+    width: 70px;
+}
+
+.globe{
+    width: 20px;
+}
+
+footer ul li{
+    padding: 5px 0;
+}
+
+footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+
