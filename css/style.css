@@ -20,18 +20,31 @@ h5 {
     font-size: 0.9rem;
 }
 
-/**/
+/*Navbar*/
 
-.nav-style ul li a {
-    color: black;
+.navbar-collapse ul li a {
+    color: black!important;
 }
 
+
+
 /*Buttons*/
+
+.btn-dark:hover{
+    outline: white solid 1px;
+    outline-offset: -3px;
+}
 
 .btn-section-img-big{
     color: #fff;
     background-color:#CD3D0F;
     border-color:#CD3D0F;
+}
+
+.btn-section-img-big:hover{
+    outline: 1px solid black;
+    outline-offset: -3px;
+    color: white;
 }
 
 .btn-primary-color{
@@ -40,16 +53,34 @@ h5 {
     border-color:#2D64E6;
 }
 
+.btn-primary-color:hover{
+    outline: 1px solid white ;
+    outline-offset: -3px;
+}
+
 .btn-color-plus{
-    color:black;
+    color:#2D64E6;
     background-color:#F5F5F5;
     border-color:#F5F5F5;
 }
 
-.btn-color-now{
+.btn-color-plus:hover{
+    outline: solid 1px black;
+    background-color:#F5F5F5 ;
     color:#2D64E6;
+}
+
+.btn-color-now{
+    color:black;
     background-color:#D9DADC;
     border-color:#D9DADC;
+}
+
+.btn-color-now:hover{
+    outline: 1px solid black;
+    outline-offset: -3px;
+    color: black;
+    background-color: #D9DADC;
 }
 
 /*First Section*/
@@ -71,6 +102,20 @@ section.container-hero{
     border: none;
 }
 
+.choose-game img{
+    border-radius: 1.25rem!important;
+}
+
+.choose-game img:hover {
+    transform: translateY(-5px);
+    box-shadow: 10px 10px 5px #dedede;
+}
+
+.choose-game-border{
+    border-radius:1.25rem;
+    border: 2px solid rgb(0, 144, 206)
+}
+
 /**Third Section**/
 
 .text-uptitle{
@@ -83,6 +128,20 @@ section.container-hero{
 
 .text-title-space p{
     color: #727272;
+}
+
+/**Fifth Section**/
+
+.product-selection{
+    border-bottom: 2px solid rgb(0, 144, 206);
+}
+
+.product-selection-opacity{
+    filter: opacity(50%);
+}
+
+.product-selection-opacity:hover{
+    filter: opacity(2);
 }
 
 /**Sixth Section**/
